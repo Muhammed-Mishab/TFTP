@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<string.h>
+#include<unistd.h>
+int main()
+{
+	char str[100];
+	scanf("%[^\n]", str);
+
+	char *res = strtok(str, " ");
+	while(res != NULL)
+	{
+		printf("%s\n", res);
+		res = strtok(NULL, " ");
+		sleep(1);
+	}
+}
+#include<stdio.h>
+#include<string.h>
+#include<unistd.h>
+int main()
+{
+        char str[100];
+        scanf("%[^\n]", str);
+
+        char *res = strtok(str, " ");
+        while(res != NULL)
+        {
+                printf("%s\n", res);
+                res = strtok(NULL, " ");
+                sleep(1);
+        }
+}
+
+#include<stdio.h>
+#include<string.h>
+#include<unistd.h>
+int main()
+{
+        char str[100];
+        scanf("%[^\n]", str);
+
+        char *res = strtok(str, " ");
+        while(res != NULL)
+        {
+                printf("%s\n", res);
+                res = strtok(NULL, " ");
+                sleep(1);
+        }
+}
